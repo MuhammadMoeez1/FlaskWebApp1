@@ -49,10 +49,5 @@ def muhabbat():
 @app.route('/kowshik')
 def kowshik():
     """Renders the kowshik page."""
-    return render_template(
-        'kowshik.html',
-        title='Kowshik Page',
-        message='Welcome to Kowshik\'s page!'
-    )
-    
+    return "kowshik"    
      
